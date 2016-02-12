@@ -155,7 +155,7 @@ tape( 'if a key path does not exist, the function sets the plucked value as `und
 	t.end();
 });
 
-tape( 'the function supports providing a key path as a array, which may include non-numeric values', function test( t ) {
+tape( 'the function supports providing a key path as an array, which may include non-numeric values', function test( t ) {
 	var expected;
 	var actual;
 	var arr;
